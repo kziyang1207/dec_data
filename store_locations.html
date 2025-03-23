@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d109d6c638791240f113eb59f1c631a7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d109d6c638791240f113eb59f1c631a7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d109d6c638791240f113eb59f1c631a7 = L.map(
+                "map_d109d6c638791240f113eb59f1c631a7",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": false,
+  "preferCanvas": false,
+  "scrollWheelZoom": false,
+  "dragging": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fdb05d15ade85ac01d6209cca7991124 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fdb05d15ade85ac01d6209cca7991124.addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var marker_69461a11ccf721c8bd232e1ad50dca56 = L.marker(
+                [1.3043937, 103.8823325],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_b27094427a71428fa881538d56bfba93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_331d6c3bb259991ed63817b2755df46c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5a967839af9a572d2d5a57393b37c3d = $(`<div id="html_b5a967839af9a572d2d5a57393b37c3d" style="width: 100.0%; height: 100.0%;">Singapore Lab</div>`)[0];
+                popup_331d6c3bb259991ed63817b2755df46c.setContent(html_b5a967839af9a572d2d5a57393b37c3d);
+            
+        
+
+        marker_69461a11ccf721c8bd232e1ad50dca56.bindPopup(popup_331d6c3bb259991ed63817b2755df46c)
+        ;
+
+        
+    
+    
+            marker_69461a11ccf721c8bd232e1ad50dca56.bindTooltip(
+                `<div>
+                     Singapore Lab
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69461a11ccf721c8bd232e1ad50dca56.setIcon(icon_b27094427a71428fa881538d56bfba93);
+            
+    
+            var marker_af160bc0c2b91f83877f68951aae1f9f = L.marker(
+                [1.28967, 103.85007],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_2d13f66c0c4073cbba8e4fa356bc38af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d36a567d5a30ff8fd1187463def135e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bd3d1f6e37fa37e76efcfa26db78430 = $(`<div id="html_4bd3d1f6e37fa37e76efcfa26db78430" style="width: 100.0%; height: 100.0%;">City Square SG</div>`)[0];
+                popup_5d36a567d5a30ff8fd1187463def135e.setContent(html_4bd3d1f6e37fa37e76efcfa26db78430);
+            
+        
+
+        marker_af160bc0c2b91f83877f68951aae1f9f.bindPopup(popup_5d36a567d5a30ff8fd1187463def135e)
+        ;
+
+        
+    
+    
+            marker_af160bc0c2b91f83877f68951aae1f9f.bindTooltip(
+                `<div>
+                     City Square SG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_af160bc0c2b91f83877f68951aae1f9f.setIcon(icon_2d13f66c0c4073cbba8e4fa356bc38af);
+            
+    
+            var marker_d283a3e55a875038c5ca7e7cb8a0cfde = L.marker(
+                [1.3272083, 103.6784809],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_d1c55187c71e9570c3774f6701606632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfbcc43f4b8eef8bf942b6aeb518a4e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7825b73e64fd05dae4f285df794b419 = $(`<div id="html_e7825b73e64fd05dae4f285df794b419" style="width: 100.0%; height: 100.0%;">Joo Koon</div>`)[0];
+                popup_bfbcc43f4b8eef8bf942b6aeb518a4e7.setContent(html_e7825b73e64fd05dae4f285df794b419);
+            
+        
+
+        marker_d283a3e55a875038c5ca7e7cb8a0cfde.bindPopup(popup_bfbcc43f4b8eef8bf942b6aeb518a4e7)
+        ;
+
+        
+    
+    
+            marker_d283a3e55a875038c5ca7e7cb8a0cfde.bindTooltip(
+                `<div>
+                     Joo Koon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d283a3e55a875038c5ca7e7cb8a0cfde.setIcon(icon_d1c55187c71e9570c3774f6701606632);
+            
+    
+            var marker_78149da445a7827608d874556d0f48ba = L.marker(
+                [1.3111181, 103.7955874],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_6d123b7fb0dcddf71b3172e4bf8cf526 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33050867e21f8b519bbe9ed987ba05b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_664f30f8458a5f933a7dd9f28f5051fe = $(`<div id="html_664f30f8458a5f933a7dd9f28f5051fe" style="width: 100.0%; height: 100.0%;">Decathlon Holland Village</div>`)[0];
+                popup_33050867e21f8b519bbe9ed987ba05b6.setContent(html_664f30f8458a5f933a7dd9f28f5051fe);
+            
+        
+
+        marker_78149da445a7827608d874556d0f48ba.bindPopup(popup_33050867e21f8b519bbe9ed987ba05b6)
+        ;
+
+        
+    
+    
+            marker_78149da445a7827608d874556d0f48ba.bindTooltip(
+                `<div>
+                     Decathlon Holland Village
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78149da445a7827608d874556d0f48ba.setIcon(icon_6d123b7fb0dcddf71b3172e4bf8cf526);
+            
+    
+            var marker_4d36d5fce95c771497191e62f7ffc802 = L.marker(
+                [1.3197981, 103.8440434],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_5137746ac2c74afb941a50f02ac3ceb9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83b964e79cee567485444abf11496871 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5abc580c283a57b79fbe69921eafe9b = $(`<div id="html_d5abc580c283a57b79fbe69921eafe9b" style="width: 100.0%; height: 100.0%;">Decathlon Velocity</div>`)[0];
+                popup_83b964e79cee567485444abf11496871.setContent(html_d5abc580c283a57b79fbe69921eafe9b);
+            
+        
+
+        marker_4d36d5fce95c771497191e62f7ffc802.bindPopup(popup_83b964e79cee567485444abf11496871)
+        ;
+
+        
+    
+    
+            marker_4d36d5fce95c771497191e62f7ffc802.bindTooltip(
+                `<div>
+                     Decathlon Velocity
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4d36d5fce95c771497191e62f7ffc802.setIcon(icon_5137746ac2c74afb941a50f02ac3ceb9);
+            
+    
+            var marker_f0a1c97ce7b54c53aa451aa985500eb4 = L.marker(
+                [1.4064265, 103.9020102],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_adabc748792c3a22082c66cb2a8696f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21d10c62009d2b8622c1e7f7603217f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c708378cd98caf6ed8a995a7016e65da = $(`<div id="html_c708378cd98caf6ed8a995a7016e65da" style="width: 100.0%; height: 100.0%;">Waterway Point</div>`)[0];
+                popup_21d10c62009d2b8622c1e7f7603217f2.setContent(html_c708378cd98caf6ed8a995a7016e65da);
+            
+        
+
+        marker_f0a1c97ce7b54c53aa451aa985500eb4.bindPopup(popup_21d10c62009d2b8622c1e7f7603217f2)
+        ;
+
+        
+    
+    
+            marker_f0a1c97ce7b54c53aa451aa985500eb4.bindTooltip(
+                `<div>
+                     Waterway Point
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0a1c97ce7b54c53aa451aa985500eb4.setIcon(icon_adabc748792c3a22082c66cb2a8696f8);
+            
+    
+            var marker_c77985effd923b26897878c4955fa956 = L.marker(
+                [1.448032, 103.819362],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_d7541bf60bc5a88d26dfddbbff7fc9b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9532dd2ea49c5216bdbdf3fb494abc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d29b479605f5663186fd256aecb8de9f = $(`<div id="html_d29b479605f5663186fd256aecb8de9f" style="width: 100.0%; height: 100.0%;">SunPlaza</div>`)[0];
+                popup_d9532dd2ea49c5216bdbdf3fb494abc4.setContent(html_d29b479605f5663186fd256aecb8de9f);
+            
+        
+
+        marker_c77985effd923b26897878c4955fa956.bindPopup(popup_d9532dd2ea49c5216bdbdf3fb494abc4)
+        ;
+
+        
+    
+    
+            marker_c77985effd923b26897878c4955fa956.bindTooltip(
+                `<div>
+                     SunPlaza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c77985effd923b26897878c4955fa956.setIcon(icon_d7541bf60bc5a88d26dfddbbff7fc9b7);
+            
+    
+            var marker_0fc0022ef8b5b4948fae61311e3c8313 = L.marker(
+                [1.305141, 103.831675],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_79d7e6375ea836e5c2f0ed2e8b00cb9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38c360cf845501223e6788c5902ad680 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_398c77dd5df62a90a3494fa4912b11b2 = $(`<div id="html_398c77dd5df62a90a3494fa4912b11b2" style="width: 100.0%; height: 100.0%;">Centre Point</div>`)[0];
+                popup_38c360cf845501223e6788c5902ad680.setContent(html_398c77dd5df62a90a3494fa4912b11b2);
+            
+        
+
+        marker_0fc0022ef8b5b4948fae61311e3c8313.bindPopup(popup_38c360cf845501223e6788c5902ad680)
+        ;
+
+        
+    
+    
+            marker_0fc0022ef8b5b4948fae61311e3c8313.bindTooltip(
+                `<div>
+                     Centre Point
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0fc0022ef8b5b4948fae61311e3c8313.setIcon(icon_79d7e6375ea836e5c2f0ed2e8b00cb9f);
+            
+    
+            var marker_1d0a4538055c10014943822b9d13a251 = L.marker(
+                [1.352511, 103.944577],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_1a409d39acff509e8688152596104ef1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0210f6eb1d54e45b7b76298b171e2f1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0842883c2e285d7d1e27e4e2918a53a = $(`<div id="html_b0842883c2e285d7d1e27e4e2918a53a" style="width: 100.0%; height: 100.0%;">Tampines Mall</div>`)[0];
+                popup_0210f6eb1d54e45b7b76298b171e2f1d.setContent(html_b0842883c2e285d7d1e27e4e2918a53a);
+            
+        
+
+        marker_1d0a4538055c10014943822b9d13a251.bindPopup(popup_0210f6eb1d54e45b7b76298b171e2f1d)
+        ;
+
+        
+    
+    
+            marker_1d0a4538055c10014943822b9d13a251.bindTooltip(
+                `<div>
+                     Tampines Mall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d0a4538055c10014943822b9d13a251.setIcon(icon_1a409d39acff509e8688152596104ef1);
+            
+    
+            var marker_a98f28a47221e0140355cfc5682560cc = L.marker(
+                [1.2865, 103.8272],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_2d618b71b7bcc78dc2607fea9deaa9de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6273dc84f19e4b3df86065baa0c5e7eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb8e1d198a590ad108c3db1f26faf21a = $(`<div id="html_cb8e1d198a590ad108c3db1f26faf21a" style="width: 100.0%; height: 100.0%;">Tiong Bahru Plaza</div>`)[0];
+                popup_6273dc84f19e4b3df86065baa0c5e7eb.setContent(html_cb8e1d198a590ad108c3db1f26faf21a);
+            
+        
+
+        marker_a98f28a47221e0140355cfc5682560cc.bindPopup(popup_6273dc84f19e4b3df86065baa0c5e7eb)
+        ;
+
+        
+    
+    
+            marker_a98f28a47221e0140355cfc5682560cc.bindTooltip(
+                `<div>
+                     Tiong Bahru Plaza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a98f28a47221e0140355cfc5682560cc.setIcon(icon_2d618b71b7bcc78dc2607fea9deaa9de);
+            
+    
+            var marker_c270c1181c6cf4aa915e83075ef9d814 = L.marker(
+                [1.284901, 103.844465],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_41cd53f50a59f6ec63431333841b2790 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b91388d6a44cea04ecfc08706e5d4f84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30a9491e1fc4e7451dbd61768fbcfdc2 = $(`<div id="html_30a9491e1fc4e7451dbd61768fbcfdc2" style="width: 100.0%; height: 100.0%;">Chinatown Point</div>`)[0];
+                popup_b91388d6a44cea04ecfc08706e5d4f84.setContent(html_30a9491e1fc4e7451dbd61768fbcfdc2);
+            
+        
+
+        marker_c270c1181c6cf4aa915e83075ef9d814.bindPopup(popup_b91388d6a44cea04ecfc08706e5d4f84)
+        ;
+
+        
+    
+    
+            marker_c270c1181c6cf4aa915e83075ef9d814.bindTooltip(
+                `<div>
+                     Chinatown Point
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c270c1181c6cf4aa915e83075ef9d814.setIcon(icon_41cd53f50a59f6ec63431333841b2790);
+            
+    
+            var marker_6e50aa63903d282bb443586f89210732 = L.marker(
+                [1.323036, 103.922081],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var icon_b1ee99fb1c3164504f27bd0ee2f454e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4e0811ae1cecbdc1e67cac7008dc8af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f90f9881f367628850756331f4b7c97a = $(`<div id="html_f90f9881f367628850756331f4b7c97a" style="width: 100.0%; height: 100.0%;">Bedok SG</div>`)[0];
+                popup_b4e0811ae1cecbdc1e67cac7008dc8af.setContent(html_f90f9881f367628850756331f4b7c97a);
+            
+        
+
+        marker_6e50aa63903d282bb443586f89210732.bindPopup(popup_b4e0811ae1cecbdc1e67cac7008dc8af)
+        ;
+
+        
+    
+    
+            marker_6e50aa63903d282bb443586f89210732.bindTooltip(
+                `<div>
+                     Bedok SG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e50aa63903d282bb443586f89210732.setIcon(icon_b1ee99fb1c3164504f27bd0ee2f454e1);
+            
+    
+            var marker_7a01ae9aa4007adafaeb0d49bc68840e = L.marker(
+                [1.3272083, 103.6784809],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var div_icon_abfd1e0790edaeacca302985654a8304 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10pt; color: black; background-color: yellow; padding: 3px; border-radius: 5px;\"\u003eJoo Koon\u003c/div\u003e",
+  "iconSize": [80, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_7a01ae9aa4007adafaeb0d49bc68840e.setIcon(div_icon_abfd1e0790edaeacca302985654a8304);
+        
+    
+                marker_7a01ae9aa4007adafaeb0d49bc68840e.setIcon(div_icon_abfd1e0790edaeacca302985654a8304);
+            
+    
+            var marker_f35db7da1b3b583a4d285f327ca858f3 = L.marker(
+                [1.3043937, 103.8823325],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var div_icon_8a887da4ec2de3088cfe13e7c777f07c = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10pt; color: black; background-color: yellow; padding: 3px; border-radius: 5px;\"\u003eSingapore Lab\u003c/div\u003e",
+  "iconSize": [100, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_f35db7da1b3b583a4d285f327ca858f3.setIcon(div_icon_8a887da4ec2de3088cfe13e7c777f07c);
+        
+    
+                marker_f35db7da1b3b583a4d285f327ca858f3.setIcon(div_icon_8a887da4ec2de3088cfe13e7c777f07c);
+            
+    
+            var marker_72af26f8728ca8c888cbd7ecc730837d = L.marker(
+                [1.323036, 103.922081],
+                {
+}
+            ).addTo(map_d109d6c638791240f113eb59f1c631a7);
+        
+    
+            var div_icon_013ed84edcf032c3f6af5c61c2a19203 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 10pt; color: black; background-color: yellow; padding: 3px; border-radius: 5px;\"\u003eBedok SG\u003c/div\u003e",
+  "iconSize": [80, 36],
+  "iconAnchor": [0, 0],
+  "className": "empty",
+});
+            marker_72af26f8728ca8c888cbd7ecc730837d.setIcon(div_icon_013ed84edcf032c3f6af5c61c2a19203);
+        
+    
+                marker_72af26f8728ca8c888cbd7ecc730837d.setIcon(div_icon_013ed84edcf032c3f6af5c61c2a19203);
+            
+</script>
+</html>
